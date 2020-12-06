@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int choice;
+	printf("1. Pizza, prize - Rs 239,\n2. Burger, prize - Rs 129,\n3. Pasta, prize - Rs179,\n4. French fries, prize - Rs 99,\n5. Sandwich, prize - Rs 149");
+	printf("\nenter your choice between 1 to 5 for food item:\n");
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1: printf("food item - pizza\nprize - Rs 239");
+		 break;
+		case 2: printf("food item - burger\nprize - Rs 129");
+		 break;
+		case 3: printf("food item - pasta\nprize - Rs 179");
+		 break;
+	    case 4: printf("food item - french fries\nprize - Rs 99");
+		 break;
+		case 5: printf("food item - sandwich\nprize - Rs 149");
+		 break;
+		default:("invalid choice! Number is not in the list of food item");
+	}
+	return 0;
+}
